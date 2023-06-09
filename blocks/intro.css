@@ -1,0 +1,45 @@
+.intro {
+  max-width: 77%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.intro__title {
+  max-width: 100%;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 58px;
+  margin-bottom: 75px;
+}
+
+.intro__subtitle {
+  max-width: 100%;
+  height: auto;
+  width: 736px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+
+.intro__author {
+  max-width: 100%;
+  height: auto;
+  width: 720px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+  margin-bottom: 32px;
+}
+
+.intro__text {
+  max-width: 100%;
+  height: auto;
+  width: 720px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 92px;
+}

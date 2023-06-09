@@ -1,0 +1,83 @@
+.place__container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 24px;
+}
+
+.place__paragraphs {
+  grid-row-start: span 3;
+}
+
+.place__card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 0 40px;
+}
+
+.place__title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+}
+
+.place__names {
+  display: grid;
+  align-self: end;
+  justify-self: start;
+}
+
+.place__artist {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-align: left;
+  color: #AAAAAA;
+  margin-bottom: 8px;
+}
+
+.place__artist-name {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+
+}
+
+.place__image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 48px;
+  margin-bottom: 61px;
+}
+
+.place__paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  margin-top: 48px;
+}
+
+.place__paragraph_small-space {
+  margin-top: 25px;
+}
+
+.place__link {
+  width: 355px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #0278FE;
+  border-radius: 4px;
+  padding: 13px 20px 13px 20px;
+  margin-bottom: 105px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.place__link:hover {
+  cursor: pointer;
+  background-color: #0063D2;
+}
