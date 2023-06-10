@@ -1,7 +1,16 @@
+.cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .cover__container {
   position: relative;
   display: inline-block;
   margin: 0px 48px 82px 48px;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .cover__overlay {
@@ -17,7 +26,7 @@
   align-items: center;
   background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
-  padding: 0 48px;
+
 }
 
 .cover__overlay:hover {
@@ -30,6 +39,10 @@
   max-width: 100%;
   height: auto;
   background-color: #2A2C2F;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .cover__title {
@@ -68,4 +81,30 @@
 
 .cover__line-breaker {
   display:block;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__container {
+    position: relative;
+    display: inline-block;
+    margin: 0px 0px 82px 0px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 16px;
+  }
+
+  .cover__text {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 16px;
+  }
+
+  .cover__container {
+    margin: 0px 0px 64px 0px;
+  }
 }
