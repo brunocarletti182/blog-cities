@@ -20,20 +20,6 @@
  * Remove a margem em todos os navegadores.
  */
 
- * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Inter';
-  color: #FFFFFF;
-}
-
-.page {
-  background-color: #2A2C2F;
-  margin:0 auto;
-  overflow: hidden;
-}
-
   body {
     margin: 0;
 
