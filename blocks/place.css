@@ -4,15 +4,15 @@
   padding: 0 24px;
 }
 
-.place__paragraphs {
-  grid-row-start: span 3;
-}
-
 .place__card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1, 1fr);
   gap: 0 40px;
+}
+
+.place__paragraphs {
+  grid-row-start: span 3;
 }
 
 .place__title {
