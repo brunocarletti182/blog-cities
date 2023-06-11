@@ -2,7 +2,7 @@
 
 De Pátria para Pátria
 
-![alt text](./assets/images/Presentation-md.jpg)
+![Imagem de amostra do projeto](./assets/images/Presentation-md.jpg)
 
 **Descrição**
 
