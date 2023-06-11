@@ -1,5 +1,5 @@
 .intro {
-  max-width: 77%;
+  max-width: 984px;
   height: auto;
   margin: 0 auto;
 }
@@ -45,14 +45,12 @@
 }
 @media screen and (max-width: 1024px) {
   .intro {
-    max-width: 100%;
     margin: 0 24px;
   }
 }
 
 @media screen and (max-width: 630px) {
   .intro {
-    max-width: 100%;
     margin: 0 16px;
   }
 
